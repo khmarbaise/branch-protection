@@ -14,7 +14,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
-        run: mvn verify -e -B -V --no-transfer-progress
+        run: mvn verify -e -B -V --no-transfer-progress org.jacoco:jacoco-maven-plugin:report
 
       - name: Add coverage to PR
         id: jacoco
