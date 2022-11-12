@@ -38,22 +38,22 @@
   <name>Code-Kata Fractions</name>
 
   <scm>
-    <connection>scm:git:https://github.com/khmarbaise/kata-fraction.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/khmarbaise/kata-fraction.git
+    <connection>scm:git:https://github.com/khmarbaise/branch-protection.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/khmarbaise/branch-protection.git
     </developerConnection>
-    <url>https://github.com/khmarbaise/kata-fraction</url>
+    <url>https://github.com/khmarbaise/branch-protection</url>
     <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
     <site>
       <id>github</id>
-      <url>scm:git:ssh://git@github.com/khmarbaise/kata-fraction.git</url>
+      <url>scm:git:ssh://git@github.com/khmarbaise/branch-protection.git</url>
     </site>
   </distributionManagement>
 
   <properties>
-    <smpp.component>kata-fraction</smpp.component>
+    <smpp.component>branch-protection</smpp.component>
 
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
