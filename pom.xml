@@ -33,7 +33,7 @@
   </parent>
 
   <groupId>com.soebes.katas</groupId>
-  <artifactId>kata-fraction</artifactId>
+  <artifactId>branch-protection</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>Code-Kata Fractions</name>
 
