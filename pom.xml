@@ -26,8 +26,6 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  First Chang3
-  Second change.
   <parent>
     <groupId>com.soebes.smpp</groupId>
     <artifactId>smpp</artifactId>
