@@ -11,7 +11,14 @@ jobs:
         with:
           java-version: 17
           distribution: 'temurin'
-          cache: maven
+
+      - name: List in ${{ github.workspace }}
+        run: ls -la ${{ github.workspace }}
+      - name: List in ~
+        run: ls -la ~
+      - name: List in maven-it-extension
+        run: ls -la maven-it-extension
+
       - name: Build with Maven
         run: mvn verify -e -B -V
 

@@ -108,5 +108,8 @@ Create Mutation coverage via:
 mvn clean verify org.pitest:pitest-maven:mutationCoverage
 ```
 
+```bash
+mvn clean verify org.pitest:pitest-maven:mutationCoverage sonar:sonar -Dsonar.login=squ_ec7139203de5a1cf9f9545dc62f8cbaab9ddd5bc -Dsonar.host.url=http://titan.local.soebes.team:9000
+```
 
 [license]: https://www.apache.org/licenses/LICENSE-2.0

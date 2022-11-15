@@ -109,9 +109,17 @@
     <pluginManagement>
       <plugins>
         <plugin>
+          <groupId>org.sonarsource.scanner.maven</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>3.9.1.2184</version>
+        </plugin>
+        <plugin>
           <groupId>org.pitest</groupId>
           <artifactId>pitest-maven</artifactId>
           <version>1.9.8</version>
+          <configuration>
+            <outputFormats>xml</outputFormats>
+          </configuration>
           <dependencies>
             <dependency>
               <groupId>com.groupcdg.pitest</groupId>
