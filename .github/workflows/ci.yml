@@ -25,6 +25,7 @@ jobs:
         if: success() || failure()
         with:
           name: 'Publish Test Results'
+          working-directory: ${{ github.workspace }}
           path: |
             ${{ github.workspace }}/target/surefire-reports/*.xml
           reporter: 'java-junit'
