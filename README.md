@@ -22,8 +22,8 @@
 [![Issues Closed](https://img.shields.io/github/issues-closed/khmarbaise/branch-protection)](https://github.com/khmarbaise/branch-protection/issues?q=is%3Aissue+is%3Aclosed)
 [![codecov](https://codecov.io/gh/khmarbaise/branch-protection/branch/master/graph/badge.svg?token=RULU3ULC3O)](https://codecov.io/gh/khmarbaise/branch-protection)
 
-[![Unit Tests](https://gist.githubusercontent.com/khmarbaise/{id}/raw/badge-unit-test.svg)](https://gist.githubusercontent.com/khmarbaise/{id}/raw/badge-unit-test.svg)
-[![Integration Tests](https://gist.githubusercontent.com/khmarbaise/{id}/raw/badge-integration-test.svg)](https://gist.githubusercontent.com/khmarbaise/{id}/raw/badge-integration-test.svg)
+[![Unit Tests](https://gist.githubusercontent.com/khmarbaise/32a3c56ef9a10798e755e2c1e921ab85/raw/badge-unit-test.svg)](https://gist.githubusercontent.com/khmarbaise/32a3c56ef9a10798e755e2c1e921ab85/raw/badge-unit-test.svg)
+[![Integration Tests](https://gist.githubusercontent.com/khmarbaise/87c4e60bdea4a6ad1c0d80682779784c/raw/badge-integration-test.svg)](https://gist.githubusercontent.com/khmarbaise/87c4e60bdea4a6ad1c0d80682779784c/raw/badge-integration-test.svg)
 
 The idea of this code kata is to show separation of concerns in particular and other aspects
 like how to use code coverage tools like JaCoCo as well as Mutation Testing to support the development
