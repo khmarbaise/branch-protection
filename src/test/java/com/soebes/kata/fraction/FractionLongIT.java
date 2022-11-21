@@ -56,7 +56,7 @@ class FractionLongIT {
 
     @Test
     void double_value_1_2() {
-      FractionLong fraction = new FractionLong(1, 3);
+      FractionLong fraction = new FractionLong(1, 2);
       assertThat(fraction.doubleValue()).isEqualTo(0.5, Offset.offset(1E-6));
     }
   }
