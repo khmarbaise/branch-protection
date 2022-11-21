@@ -40,7 +40,7 @@ class FractionLongTest {
 
     @Test
     void fraction_to_bigdecimal() {
-      FractionLong fraction = new FractionLong(1, 1);
+      FractionLong fraction = new FractionLong(1, 2);
       assertThat(fraction.bigDecimalValue()).isEqualByComparingTo(BigDecimal.valueOf(1));
     }
   }
