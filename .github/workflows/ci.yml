@@ -109,9 +109,16 @@ jobs:
           gistURL: https://gist.githubusercontent.com/khmarbaise/87c4e60bdea4a6ad1c0d80682779784c
           file: badge-integration-test.svg
 
-#      - name: Add coverage to PR
-#        id: jacoco
-#        uses: madrapps/jacoco-report@v1.3
-#        with:
-#          paths: ${{ github.workspace }}/target/site/jacoco/jacoco.xml
-#          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Add coverage Unit Tests
+        id: jacoco
+        uses: madrapps/jacoco-report@v1.3
+        with:
+          paths: ${{ github.workspace }}/target/site/jacoco/jacoco.xml
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Add coverage Integration Tests
+        id: jacoco-it
+        uses: madrapps/jacoco-report@v1.3
+        with:
+          paths: ${{ github.workspace }}/target/site/jacoco-it/jacoco.xml
+          token: ${{ secrets.GITHUB_TOKEN }}
