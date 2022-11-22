@@ -115,6 +115,8 @@ jobs:
         with:
           paths: ${{ github.workspace }}/target/site/jacoco/jacoco.xml
           token: ${{ secrets.GITHUB_TOKEN }}
+          title: Coverage - Unit Tests
+          update-comment: true
 
       - name: Add coverage Integration Tests
         id: jacoco-it
@@ -122,3 +124,5 @@ jobs:
         with:
           paths: ${{ github.workspace }}/target/site/jacoco-it/jacoco.xml
           token: ${{ secrets.GITHUB_TOKEN }}
+          title: Coverage - Integration Tests
+          update-comment: true
