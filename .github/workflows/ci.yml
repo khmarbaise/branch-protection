@@ -26,6 +26,7 @@ jobs:
         id: unit-test-results
         if: always()
         with:
+          check_name: Test Results
           comment_title: Test Results
           junit_files: |
             ${{ github.workspace }}/target/surefire-reports/TEST-*.xml
@@ -35,6 +36,7 @@ jobs:
         id: integration-test-results
         if: always()
         with:
+          check_name: Integration Test Results
           comment_title: Integration Test Results
           junit_files: |
             ${{ github.workspace }}/target/failsafe-reports/TEST-*.xml
